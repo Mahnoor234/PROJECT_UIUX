@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from "next/link"
 import { Heart, Menu, Search, ShoppingCart, User, X } from 'lucide-react'
-import { text } from 'node:stream/consumers'
+
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false)
